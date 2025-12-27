@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.title {
+    color: #555;
+    font-size: 14px;
+}
+
+.album-art {
+    width: 150px;
+    height: 150px;
+    background: #eee;
+    border-radius: 50%;
+    margin: 20px auto;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-name {
+    margin: 5px 0;
+}
+
+.artist {
+    color: gray;
+    font-size: 14px;
+}
+
+.progress {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+}
+
+.controls {
+    margin-top: 15px;
+}
+
+.controls button {
+    background: #764ba2;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.controls .play {
+    font-size: 22px;
+    padding: 12px 18px;
+}
